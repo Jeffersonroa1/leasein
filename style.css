@@ -1,0 +1,223 @@
+body{
+    max-width: 1920px!important;
+    font-family: 'Inter', sans-serif;
+}
+.navbar{
+    background-color: transparent!important;
+    border: 1px solid transparent;
+}
+.navbar .container-fluid ul li a{
+    color: #682ae6!important;
+    font-weight: 700;
+}
+
+.input{
+    font-size: 13px !important;
+    font-weight: 600;
+    color: rgb(133, 140, 141) !important;
+}
+/* Remove the navbar's default margin-bottom and rounded borders */ 
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+.lila{
+    color: #6315ff;
+}
+.verdneg{
+    color: #213e6a;
+}
+.titel{
+    font-weight: 900;
+    font-size: 48px;
+}
+.titel-img{
+    font-weight: 700;
+    font-size: 18px;
+}
+.info{
+    font-size: 17px;
+}
+.btnbanner{
+    padding: 15px 60px;
+    margin: 5px 5px;
+    font-size: 17px;
+}
+.btnbannerlila{
+    background-color: #6315ff;
+    color: #fff;
+    font-weight: 600;
+}
+.btnbannergray{
+    background-color: #e1e8f0;
+    color: rgb(54, 54, 54);
+    font-weight: 600;
+}
+.paddingbanner{
+    padding: 80px 50px;
+}
+.plomillo{
+    color: #e9e9e9;
+}
+.thumbnail{
+    padding: 0px;
+}
+.ll{
+    border-radius: 25px 0px 25px 0px;
+    padding:0px;
+    text-decoration: none;
+}
+.ll a img{
+    border-radius: 25px 0px 0px 0px;
+}
+.flexitotitle{
+    align-items: center;align-content: center;
+}
+.flexitocajon{
+    display:flex; margin: 17px 0;
+    text-align: center;
+}
+.izq{
+    align: left;
+}
+.der{
+    align: right;
+}
+.strtitle{
+    font-weight: 800;
+}
+/*Dolar y gps*/
+.flexitocajondd{
+    display:flex;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+.izqdd{
+    align: left;
+}
+.derdd{
+    align: right;
+}
+.strtitledd{
+    font-weight: 800;
+    font-size: 14px;
+    margin-top: 18px;
+}
+.gpdolargeneral{
+    padding:0px 5px;
+}
+.moradito{
+    color: #fff;
+    padding: 20px 0;
+    background-color: #6315ff;
+    font-weight: 600;
+    font-size: 17px;
+    text-align: center;
+    border-radius:0 0 25px 0;
+    width: 100% !important
+}
+.trending{
+    font-weight: 900;
+    font-size: 40px;
+}
+.titel-img-peque{
+    font-weight: 700;
+    font-size: 18px;
+}
+.plomo{
+    color: #a5acb4;
+    margin-left: 5px;
+}
+.metrica{
+    color: #a5acb4;
+    font-size: 12px;
+}
+.places{
+    border-radius: 12px;
+    border: 0px solid;
+}
+.places a img{
+    border-radius: 12px;
+}
+.moradito-places{
+    color: #fff;
+    padding: 20px 0;
+    background-color: #6315ff;
+    font-weight: 600;
+    font-size: 17px;
+    text-align: center;
+    border-radius: 12px;
+    width: 100% !important
+}
+.strtitleplaces{
+    font-weight: 800;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.paddinghave{
+    padding: 0px 50px;
+}
+.valor-cesta1{
+    font-size: 48px;
+    font-weight: 800;
+}
+.count{
+    color: #6315ff;
+    font-weight: 700;
+}
+.padding-bottom{
+    padding-bottom: 100px;
+}
+.count-text{
+    padding: 0px 0 !important;
+    margin: 0px 0 !important;
+    font-size: 22px;
+    color: rgb(82, 82, 82);
+}
+.foo{
+    color: #fff;
+    font-weight: 800;
+    font-size: 42px;
+}
+.foopeq{
+    color: rgb(209, 209, 209);
+    font-weight: 300;
+    font-size: 11px;
+}
+footer{
+    background-color:#1a2b45 !important;
+}
+.footerflex{
+    display: flex;
+}
+.footerflexleft{
+    background-color: #000;
+    color:#e1e8f0;
+    height:50px;
+    border-radius: 10px 0 0 10px;
+}
+.container-fluid{
+padding: 0px;
+margin: 0px;
+}
+
+
+/* Add a gray background color and some padding to the footer */
+footer {
+  background-color: #20385a;
+  padding: 25px;
+}
+
+.carousel-inner img {
+  width: 100%; /* Set width to 100% */
+  margin: auto;
+  min-height:200px;
+}
+
+/* Hide the carousel text when the screen is less than 600 pixels wide */
+@media (max-width: 600px) {
+.carousel-caption {
+  display: none; 
+}
+}
